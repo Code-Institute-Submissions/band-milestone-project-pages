@@ -1,7 +1,13 @@
+html,
 body {
     font-family: 'Roboto', sans-serif;
+    margin: auto;
+    padding: 0;
 }
 
+.row{
+    margin: auto;
+}
 /*--------------------------------------------- Containers */
 
 .container-wrapper {}
@@ -11,7 +17,7 @@ body {
     color: white;
 }
 
-#a5d6ff .alert-container {}
+
 
 .callout-container {
     height: 100vh;
@@ -131,6 +137,15 @@ mark {
     margin-top: 20px;
 }
 
+#alert-container {
+    margin: 0;
+    padding: 0px;
+}
+
+#alert-warning{
+    margin: 0;
+    padding: 0px;
+}
 .alert-link-style {
     color: #b1dbff;
     text-decoration: none;
@@ -292,7 +307,7 @@ blockquote.quote {
     display: table;
     background-color: #fff;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 
 .section-heading {
@@ -318,9 +333,12 @@ blockquote.quote {
 }
 
 
+.photo-column {
+    padding-right: 0;
+}
 
 .right-col-photos {
-    height: 440px;
+    height: 100%;
     width: 100%;
     transition: .5s ease;
     backface-visibility: hidden;
@@ -333,59 +351,35 @@ blockquote.quote {
     opacity: 1;
 }
 
-.breaker{
-    height: 10px;
-}
-.text {
-    background-color: #4CAF50;
-    color: white;
-    font-size: 16px;
-    padding: 16px 32px;
-    visibility: hidden;
-}
-
-.link-about {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-}
-
 .container {
     width: 100%;
     height: 100%;
     padding: 0;
     position: relative;
+    display: table;
+    margin-bottom: 25px;
 }
 
 .tag {
-    float: left;
     position: absolute;
+    display: table-cell;
     left: 0px;
     top: 0px;
     z-index: 1000;
-    background-color: rgba(0,0,0,0.6);
-    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.6);
     color: #FFFFFF;
     font-weight: bold;
     width: 100%;
     height: 100%;
+    vertical-align: middle;
+    text-align: center;
     visibility: hidden;
 }
 
-.tag p{
-    text-align: center;
-    margin-top: 28%;
-    color: white;
-    text-transform: uppercase;
-    font-size: 50px;
-}
 .container:hover .tag {
+    transition: ease-in-out 1s;
     visibility: visible;
+
 }
 
 
