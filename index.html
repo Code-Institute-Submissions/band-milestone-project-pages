@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Whiskey Drop | Taste a new whiskey every month</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -27,8 +28,10 @@
 
             <div class="navbar-collapse collapse navbar-right hidden-xs" id="navbar">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="/">Home</a></li>
-                    <li><a href="">About</a></li>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="">Tour</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                     <li class="visible-xs"><a href="">Sign In</a></li>
                     <a href="/login" class='btn btn-default navbar-btn'>Sign Up</a>
                 </ul>
@@ -43,7 +46,7 @@
                 <section class="callout jumbotron text-center">
                     <h1>Experience the Monkees like never before</h1>
                     <hr class='block-divider block-divider--orange'>
-                    <p class="lead">Sign up today to recieve the latest news and offers! <s class="hidden-xs">€19.99</s> <span class="visible-xs"><br></span> <strong><mark>First one is free!</mark></strong></p>
+                    <p class="lead">Sign up today to recieve the latest news and offers!</p>
                     <p><button class="btn btn-lg btn--cta btn--red" data-toggle='modal' data-target='#signUpModal'>Sign Up!</button></p>
                     <p class="text-muted"><small>You must be over 18 to sign up to our service. Please drink responsibly.</small></p>
                 </section>
@@ -63,64 +66,25 @@
                     <form>
                         <div class="form-group">
                             <label for="email">Email address</label>
-                            <input type="email" class="form-control" id="email" placeholder="Email">
+                            <input type="email" class="form-control" id="email" placeholder="Email" required>
                             <p class="help-block">We'll never share your email address with anyone</p>
                         </div>
                         <div class="form-group">
                             <label for="password">Password</label>
-                            <input type="password" class="form-control" id="password" placeholder="Password">
+                            <input type="password" class="form-control" id="password" placeholder="Password" required>
                         </div>
                         <div class="form-group">
                             <label for="passwordRepeat">Repeat Password</label>
-                            <input type="password" class="form-control" id="passwordRepeat" placeholder="Repeat Your Password">
+                            <input type="password" class="form-control" id="passwordRepeat" placeholder="Repeat Your Password" required>
                         </div>
-                        <button type="submit" class="btn btn-success">Sign Up!</button>
+                        <button class="btn btn-success modal-button" type="submit">Sign Up!</button>
                     </form>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Section -->
-    <section class="container-fluid">
-        <div class="row row-table row-eq-height">
-            <div class="col-xs-12 col-sm-12 col-md-4 bg-color-personal-info section-column">
-                <div class="row ">
-                    <div class="col-md-12 photo-column ">
-                        <div class="container">
-                            <div id="top-left" class="tag">
-                                Featured
-                            </div>
-                            <a href="/"><img id= "smaller-photo" class = "left-col-photos" src="assets/images/monkees.jpg"/></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row ">
-                    <div class="col-md-12 photo-column;">
-                        <div class="container">
-                            <div class="tag">
-                                Featured
-                            </div>
-                            <img class="left-col-photos" src="assets/images/oldMonkees.jpg" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="hidden-xs col-sm-12 col-md-8 bg-color-three-reasons section-column">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="container">
-                            <div class="tag">
-                                Tour
-                            </div>
-                            <img class="right-col-photos" src="assets/images/monkeeslive.jpg" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- Features -->
     <div class="container-wrapper container-wrapper--red">
         <div class="container features-container content-container">
             <!-- Features -->
@@ -164,13 +128,55 @@
         </div>
     </div>
 
+
+    <!-- Section -->
+    <section class="container-fluid">
+        <div class="row row-table row-eq-height">
+            <div class="col-xs-12 col-sm-12 col-md-4 bg-color-personal-info section-column">
+                <div class="row ">
+                    <div class="col-md-12 photo-column ">
+                        <div class="container">
+                            <div id="top-left" class="tag">
+                                Featured
+                            </div>
+                            <a href="/"><img id= "smaller-photo" class = "left-col-photos" src="assets/images/monkees.jpg"/></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row ">
+                    <div class="col-md-12 photo-column">
+                        <div class="container">
+                            <div class="tag">
+                                Featured
+                            </div>
+                            <img class="left-col-photos" src="assets/images/oldMonkees.jpg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hidden-xs col-sm-12 col-md-8 section-column">
+                <div class="row">
+                    <div class="col-md-12 photo-column">
+                        <div class="container">
+                            <div class="tag">
+                                Tour
+                            </div>
+                            <img class="right-col-photos" src="assets/images/monkeeslive.jpg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Footer -->
     <footer class="container-fluid">
         <div id="footer-details" class="row">
             <div class="col-sm-4">
                 <h5 class="uppercase general-sub">About</h5>
                 <p class="inline-block">
-                    Full Stack Web Developer. Skilled in everything from HTML to Heroku. The capacity for strucrural and design this thinking.
+                    The Monkees were an American rock and pop band originally active between 1965 and 1971, with subsequent reunion albums and tours in the decades that followed.
                 </p>
             </div>
             <div class="col-sm-4">

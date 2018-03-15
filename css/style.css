@@ -1,13 +1,16 @@
 html,
 body {
     font-family: 'Roboto', sans-serif;
+    color: white;
     margin: auto;
+    background-color: #ffffff;
     padding: 0;
 }
 
-.row{
+.row {
     margin: auto;
 }
+
 /*--------------------------------------------- Containers */
 
 .container-wrapper {}
@@ -48,7 +51,7 @@ mark {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .content-container {
@@ -83,6 +86,19 @@ mark {
 
 .navbar-default .navbar-toggle .icon-bar {
     background-color: white;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 28px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
 }
 
 .navbar .navbar-brand {
@@ -142,10 +158,11 @@ mark {
     padding: 0px;
 }
 
-#alert-warning{
+#alert-warning {
     margin: 0;
     padding: 0px;
 }
+
 .alert-link-style {
     color: #b1dbff;
     text-decoration: none;
@@ -153,6 +170,21 @@ mark {
 
 .main-section {
     margin-top: 100px;
+}
+
+/*---------------------------------------------  Modal */
+
+.btn-success {
+    background-color: #df4929;
+    border-color: #c73f22;
+    border-radius: 20px;
+}
+
+.btn-success:hover {
+    background-color: #cc4427;
+    border-color: #c73f22;
+    border-radius: 20px;
+    border-color: #255625;
 }
 
 /*---------------------------------------------  Jumbotron */
@@ -240,7 +272,7 @@ mark {
     border-radius: 0;
 }
 
-/*---------------------------------------------  Page Headers */
+/*---------------------------------------------  Page Headers/Uppercase */
 
 .page-header {
     margin-bottom: 0;
@@ -250,6 +282,10 @@ mark {
 
 .page-header h2 {
     margin-top: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
 
 /*---------------------------------------------  Quotes */
@@ -335,6 +371,8 @@ blockquote.quote {
 
 .photo-column {
     padding-right: 0;
+    padding-left: 0;
+    margin-bottom: 5px;
 }
 
 .right-col-photos {
@@ -366,24 +404,20 @@ blockquote.quote {
     left: 0px;
     top: 0px;
     z-index: 1000;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.3);
     color: #FFFFFF;
     font-weight: bold;
     width: 100%;
     height: 100%;
     vertical-align: middle;
     text-align: center;
-    visibility: hidden;
 }
 
 .container:hover .tag {
-    transition: ease-in-out 1s;
-    visibility: visible;
+    transition: ease-in-out 0.25s;
+    background-color: rgba(0, 0, 0, 0.8);
 
 }
-
-
-
 
 /*--------------------------------------------- Footer*/
 
@@ -437,4 +471,97 @@ footer .social-links li a i:hover {
 
 footer #footer-details {
     margin: 20px;
+    padding-bottom: 40px;
+}
+
+/*--------------------------------------------- Contact*/
+
+.bg-color-margin {
+    margin-top: 100px;
+}
+
+.bg-contact-colour {
+    background-color: #2f2f2f;
+}
+
+.contact-heading {
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+
+.form-control{
+    margin-bottom: 30px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 100px auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #e84610;
+    color: #fafafa;
+}
+
+/*--------------------------------------------- About*/
+
+.container-about{
+    padding: 0;
+    height: 100%;
+}
+
+.callout-about{
+    height:60vh;
+    background: url("../assets/images/monkeeslive.jpg") no-repeat ;
+}
+
+.row-about{
+    margin: 0;
+    background-color: #f05f40;
+}
+
+.personal-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+    padding-right: 8px;
+}
+
+.personal-info-item .key p ,
+.personal-info-item .value p {
+    margin: 0;
+}
+
+.personal-info-item .key {
+    display: inline-block;
+    width: 30%;
+    padding-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p{
+    font-weight: 700;
+}
+
+.personal-info-item .value{
+    display: inline-block;
+    position: relative;
+    width: 60%;
+    
+}
+
+.bg-color-three-reasons {
+    background-color: #2f2f2f;
+    margin: 0;
 }
