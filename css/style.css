@@ -347,14 +347,12 @@ blockquote.quote {
 }
 
 .section-heading {
-    font-family: "Exo", "sans-serif";
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
 }
 
 .three-reasons-heading {
-    font-family: "Exo", "sans-serif";
     font-weight: 500;
     margin-bottom: 15px;
 }
@@ -499,7 +497,7 @@ footer #footer-details {
 .center-form {
     padding-top: 10px;
     margin: 100px auto;
-    max-width: 70%;
+    max-width: 500px;
 }
 
 button[type="submit"] {
@@ -551,7 +549,7 @@ button[type="submit"] {
 }
 
 .personal-info-item .key p{
-    font-weight: 700;
+   
 }
 
 .personal-info-item .value{
