@@ -434,7 +434,7 @@ blockquote.quote {
 
 .container:hover .tag {
     transition: ease-in-out 0.25s;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(216, 86, 47, 0.6);
 
 }
 
@@ -581,6 +581,7 @@ button[type="submit"] {
 .bg-color-three-reasons {
     background-color: #2f2f2f;
     margin: 0;
+    padding-bottom: 20px;
 }
 
 .personal-info-section {
@@ -591,7 +592,7 @@ button[type="submit"] {
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    border: 2px solid #f05f40;
+    border: 2px solid #fafafa;
 }
 
 .members-allign {
@@ -600,6 +601,17 @@ button[type="submit"] {
     padding-left: 65px;
 }
 
-.about-section{
+.about-section {
     margin-bottom: 0;
+}
+
+.button-about {
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+/*--------------------------------------------- Modal about page*/
+
+div .modal-body-color {
+    color: black;
 }
