@@ -168,10 +168,6 @@ mark {
     text-decoration: none;
 }
 
-.main-section {
-    margin-top: 100px;
-}
-
 /*---------------------------------------------  Modal */
 
 .btn-success {
@@ -186,6 +182,12 @@ mark {
     border-radius: 20px;
     border-color: #255625;
 }
+
+.modal-title {
+    color: #737373;
+}
+
+
 
 /*---------------------------------------------  Jumbotron */
 
@@ -275,6 +277,7 @@ mark {
 /*---------------------------------------------  Page Headers/Uppercase */
 
 .page-header {
+    margin-top: 30px;
     margin-bottom: 0;
     border-bottom: 0;
     text-align: center;
@@ -298,11 +301,16 @@ blockquote.quote {
     border-left: 0;
 }
 
-/* Features */
+/*---------------------------------------------  Features */
+
+.feature h3 {
+    margin-top: 0;
+    margin-bottom: 40px;
+}
 
 .feature {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 90px;
 }
 
 .feature .glyphicon {
@@ -328,6 +336,10 @@ blockquote.quote {
 
 /*--------------------------------------------- Section*/
 
+.section-column {
+    height: 100%;
+}
+
 .bg-color-three-reasons {
     background-color: #ffffff;
 }
@@ -343,12 +355,13 @@ blockquote.quote {
     display: table;
     background-color: #fff;
     margin-top: 20px;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
 }
 
 .section-heading {
     font-weight: 300;
     margin-top: 25px;
+    text-align: center;
     margin-bottom: 40px;
 }
 
@@ -370,7 +383,7 @@ blockquote.quote {
 .photo-column {
     padding-right: 0;
     padding-left: 0;
-    margin-bottom: 5px;
+    margin-bottom: 0;
 }
 
 .right-col-photos {
@@ -389,26 +402,34 @@ blockquote.quote {
 
 .container {
     width: 100%;
-    height: 100%;
     padding: 0;
     position: relative;
-    display: table;
-    margin-bottom: 25px;
+}
+
+.container-top-left {
+    margin-bottom: 26px;
 }
 
 .tag {
     position: absolute;
-    display: table-cell;
     left: 0px;
     top: 0px;
     z-index: 1000;
-    background-color: rgba(0, 0, 0, 0.3);
-    color: #FFFFFF;
-    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.6);
     width: 100%;
     height: 100%;
-    vertical-align: middle;
+
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #FFFFFF;
+    width: 100%;
     text-align: center;
+    font-weight: bold;
+    font-size: 50px;
 }
 
 .container:hover .tag {
@@ -490,7 +511,7 @@ footer #footer-details {
 }
 
 
-.form-control{
+.form-control {
     margin-bottom: 30px;
 }
 
@@ -509,17 +530,17 @@ button[type="submit"] {
 
 /*--------------------------------------------- About*/
 
-.container-about{
+.container-about {
     padding: 0;
     height: 100%;
 }
 
-.callout-about{
-    height:60vh;
-    background: url("../assets/images/monkeeslive.jpg") no-repeat ;
+.callout-about {
+    height: 43vh;
+    background: url("../assets/images/monkeeslive.jpg") no-repeat;
 }
 
-.row-about{
+.row-about {
     margin: 0;
     background-color: #f05f40;
 }
@@ -535,7 +556,7 @@ button[type="submit"] {
     padding-right: 8px;
 }
 
-.personal-info-item .key p ,
+.personal-info-item .key p,
 .personal-info-item .value p {
     margin: 0;
 }
@@ -548,18 +569,37 @@ button[type="submit"] {
     vertical-align: top;
 }
 
-.personal-info-item .key p{
-   
-}
+.personal-info-item .key p {}
 
-.personal-info-item .value{
+.personal-info-item .value {
     display: inline-block;
     position: relative;
     width: 60%;
-    
+
 }
 
 .bg-color-three-reasons {
     background-color: #2f2f2f;
     margin: 0;
+}
+
+.personal-info-section {
+    padding-left: 30px;
+}
+
+.member-profile-pictures {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid #f05f40;
+}
+
+.members-allign {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-left: 65px;
+}
+
+.about-section{
+    margin-bottom: 0;
 }
