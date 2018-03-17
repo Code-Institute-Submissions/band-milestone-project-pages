@@ -336,12 +336,17 @@ blockquote.quote {
 
 /*--------------------------------------------- Section*/
 
-.section-column {
-    height: 100%;
+.section-column-home
+{
+    float: none;
+    display: table-cell;
 }
-
-.bg-color-three-reasons {
-    background-color: #ffffff;
+@media(min-width: 992px) {
+    .section-column {
+        padding: 0 30px 30px;
+        float: none;
+        display: table-cell;
+    }
 }
 
 .container-fluid {
@@ -543,6 +548,7 @@ button[type="submit"] {
 .row-about {
     margin: 0;
     background-color: #f05f40;
+    width: 100%;
 }
 
 .personal-info-item {
@@ -581,7 +587,7 @@ button[type="submit"] {
 .bg-color-three-reasons {
     background-color: #2f2f2f;
     margin: 0;
-    padding-bottom: 20px;
+    width: 100%;
 }
 
 .personal-info-section {
@@ -598,7 +604,8 @@ button[type="submit"] {
 .members-allign {
     text-align: center;
     margin-bottom: 50px;
-    padding-left: 65px;
+    
+    padding-left: 55px;
 }
 
 .about-section {
@@ -614,4 +621,43 @@ button[type="submit"] {
 
 div .modal-body-color {
     color: black;
+}
+
+/*--------------------------------------------- Hire Us*/
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+
+}
+
+.timeline-item::before {
+    content: attr(dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-weight: 500;
+    font-size: .8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item::after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background-color: #fafafa;
 }
