@@ -13,8 +13,6 @@ body {
 
 /*--------------------------------------------- Containers */
 
-.container-wrapper {}
-
 .container-wrapper--red {
     background-color: #f05f40;
     color: white;
@@ -42,7 +40,7 @@ body {
 mark {
     color: white;
     background-color: #f05f4054;
-    font-weight: normal
+    font-weight: normal;
 }
 
 .opaque-overlay {
@@ -119,9 +117,14 @@ mark {
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
-    color: white;
+    color: #ffffff;
     background: transparent;
     font-size: 20px;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #ffffff;
+    background-color: transparent;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -305,12 +308,11 @@ blockquote.quote {
 
 .feature h3 {
     margin-top: 0;
-    margin-bottom: 40px;
 }
 
 .feature {
     text-align: center;
-    margin-bottom: 90px;
+    margin-bottom: 40px;
 }
 
 .feature .glyphicon {
@@ -381,7 +383,7 @@ blockquote.quote {
 }
 
 .three-reasons-margin {
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 
 
@@ -465,9 +467,14 @@ blockquote.quote {
     margin-bottom: 30px;
 }
 
+textarea.form-control {
+    height: auto;
+    resize: none;
+}
+
 .center-form {
     padding-top: 10px;
-    margin: 100px auto;
+    margin: 50px auto;
     max-width: 500px;
 }
 
@@ -476,6 +483,8 @@ button[type="submit"] {
     margin-bottom: 20px;
     background-color: #e84610;
     color: #fafafa;
+    height: 50px;
+    width: 100px;
 }
 
 /*--------------------------------------------- About*/
@@ -486,7 +495,7 @@ button[type="submit"] {
 }
 
 .callout-about {
-    height: 43vh;
+    height: 50vh;
     background: url("../assets/images/monkeeslive.jpg") no-repeat;
 }
 
@@ -520,8 +529,6 @@ button[type="submit"] {
     vertical-align: top;
 }
 
-.personal-info-item .key p {}
-
 .personal-info-item .value {
     display: inline-block;
     position: relative;
@@ -549,10 +556,10 @@ button[type="submit"] {
 .members-allign {
     text-align: center;
     margin-bottom: 50px;
-} 
+}
 
 .about-section {
-    margin-bottom: 0;
+    margin-top: 150px;
 }
 
 .button-about {
@@ -579,44 +586,7 @@ div .modal-body-color {
 }
 
 .hire-us-features {
-    margin-top: 90px;
-}
-
-.timeline-item {
-    padding: 4em 2em 0em 2em;
-    position: relative;
-    color: #fafafa;
-    border-left: 1px solid;
-}
-
-.timeline-item p {
-    padding: 0;
-    margin: 0;
-
-}
-
-.timeline-item::before {
-    content: attr(dates);
-    position: absolute;
-    left: 2.5em;
-    top: 3em;
-    display: block;
-    font-weight: 500;
-    font-size: .8em;
-    padding: 0;
-    margin: 0;
-}
-
-.timeline-item::after {
-    width: 12px;
-    height: 12px;
-    display: block;
-    top: 2.4em;
-    position: absolute;
-    left: -6px;
-    border-radius: 12px;
-    content: '';
-    background-color: #fafafa;
+    margin-top: 40px;
 }
 
 .video-hire-us {
