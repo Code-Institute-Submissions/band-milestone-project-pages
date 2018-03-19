@@ -336,11 +336,11 @@ blockquote.quote {
 
 /*--------------------------------------------- Section*/
 
-.section-column-home
-{
+.section-column-home {
     float: none;
     display: table-cell;
 }
+
 @media(min-width: 992px) {
     .section-column {
         padding: 0 30px 30px;
@@ -598,14 +598,12 @@ button[type="submit"] {
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    border: 2px solid #fafafa;
+    border: 1px solid #fafafa;
 }
 
 .members-allign {
     text-align: center;
     margin-bottom: 50px;
-    
-    padding-left: 55px;
 }
 
 .about-section {
@@ -614,7 +612,11 @@ button[type="submit"] {
 
 .button-about {
     border-radius: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
+    border-color: #2f2f2f;
+    color: #2f2f2f;
+    line-height: 2.5;
+    font-size: 12px;
 }
 
 /*--------------------------------------------- Modal about page*/
@@ -624,6 +626,16 @@ div .modal-body-color {
 }
 
 /*--------------------------------------------- Hire Us*/
+
+.row-hire-us {
+    background-color: #2f2f2f;
+    width: 100%;
+    margin: 0;
+}
+
+.hire-us-features{
+    margin-top: 90px;
+}
 
 .timeline-item {
     padding: 4em 2em 0em 2em;
@@ -660,4 +672,12 @@ div .modal-body-color {
     border-radius: 12px;
     content: '';
     background-color: #fafafa;
+}
+
+.video-hire-us{
+    margin-bottom: 50px;
+}
+
+.hire-us-audio{
+    text-align: center;
 }
