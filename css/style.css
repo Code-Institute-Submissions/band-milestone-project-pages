@@ -118,7 +118,7 @@ mark {
 
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
-.navbar-default .navbar-nav>.active>a:hover{
+.navbar-default .navbar-nav>.active>a:hover {
     color: white;
     background: transparent;
     font-size: 20px;
@@ -130,8 +130,7 @@ mark {
 }
 
 .navbar-default .navbar-nav>li>a:focus,
-.navbar-default .navbar-nav>li>a:hover
-.navbar-default .navbar-nav>li>a:active{
+.navbar-default .navbar-nav>li>a:hover .navbar-default .navbar-nav>li>a:active {
     color: white;
 }
 
@@ -444,61 +443,6 @@ blockquote.quote {
 
 }
 
-/*--------------------------------------------- Footer*/
-
-footer {
-    background-color: #1b1b1b;
-    color: #fafafa;
-    min-height: 120px;
-    margin: 0;
-}
-
-footer .cv-pdf-a #cv-pdf {
-    color: white;
-    text-align: center;
-    font-size: 18px;
-    padding-left: 5px;
-}
-
-footer .cv-pdf-a #cv-pdf:hover {
-    color: #e84610;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-footer .social-links {
-    padding-bottom: 15px;
-
-}
-
-footer .social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: white;
-    background-color: #8f8f8f;
-    margin-bottom: 5px;
-}
-
-footer .social-links li a i:hover {
-    background-color: #e84610;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-footer #footer-details {
-    margin: 20px;
-    padding-bottom: 40px;
-}
-
 /*--------------------------------------------- Contact*/
 
 .bg-color-margin {
@@ -592,7 +536,8 @@ button[type="submit"] {
 }
 
 .personal-info-section {
-    padding-left: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .member-profile-pictures {
@@ -605,7 +550,7 @@ button[type="submit"] {
 .members-allign {
     text-align: center;
     margin-bottom: 50px;
-}
+} 
 
 .about-section {
     margin-bottom: 0;
@@ -634,7 +579,7 @@ div .modal-body-color {
     margin: 0;
 }
 
-.hire-us-features{
+.hire-us-features {
     margin-top: 90px;
 }
 
@@ -675,10 +620,65 @@ div .modal-body-color {
     background-color: #fafafa;
 }
 
-.video-hire-us{
+.video-hire-us {
     margin-bottom: 50px;
 }
 
-.hire-us-audio{
+.hire-us-audio {
     text-align: center;
+}
+
+/*--------------------------------------------- Footer*/
+
+footer {
+    background-color: #1b1b1b;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+footer .cv-pdf-a #cv-pdf {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+footer .cv-pdf-a #cv-pdf:hover {
+    color: #e84610;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+footer .social-links {
+    padding-bottom: 15px;
+
+}
+
+footer .social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: white;
+    background-color: #8f8f8f;
+    margin-bottom: 5px;
+}
+
+footer .social-links li a i:hover {
+    background-color: #e84610;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+footer #footer-details {
+    margin: 20px;
+    padding-bottom: 40px;
 }
