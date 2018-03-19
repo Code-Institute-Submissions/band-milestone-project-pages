@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class = "bg-contact-colour">
+<body class="bg-contact-colour">
     <nav class="navbar navbar-default">
-        <div class="container-fluid">
+        <div class="container-fluid ">
             <div class="navbar-header">
                 <a href="index.html">
                     <img src ="assets/images/logo.png"/ class = "navbar-brand">
@@ -26,20 +26,23 @@
                 </button>
             </div>
 
-            <div class="navbar-collapse collapse navbar-right hidden-xs" id="navbar">
+            <div class="navbar-collapse collapse navbar-right" id="navbar">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="hireUs.html">Hire Us</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li class="visible-xs"><a href="">Sign In</a></li>
-                    <a href="/login" class='btn btn-default navbar-btn'>Sign Up</a>
+                    <li class ="active"><a href="contact.html">Contact</a></li>
+                    <li class="visible-xs"><a href="">Sign Up</a></li>
                 </ul>
+
+                <div class="navbar-header hidden-xs">
+                    <a href="/login" class='btn btn-default navbar-btn'>Sign Up</a>
+                </div>
             </div>
         </div>
     </nav>
-    
-        <section class="container-fluid">
+
+    <section class="container-fluid">
         <div class="row bg-color-margin">
             <div>
                 <h3 class="contact-heading uppercase text-center">Please get in touch!</h3>
@@ -60,20 +63,13 @@
     <!-- Footer -->
     <footer class="container-fluid">
         <div id="footer-details" class="row">
-            <div class="col-sm-4">
+            <div class="col-sm-6">
                 <h5 class="uppercase general-sub">About</h5>
                 <p class="inline-block">
                     The Monkees were an American rock and pop band originally active between 1965 and 1971, with subsequent reunion albums and tours in the decades that followed.
                 </p>
             </div>
-            <div class="col-sm-4">
-                <h5 class="uppercase general-sub">Download My CV</h5>
-                <p class="inline-block">
-                    Need a printable version of my CV? Download it here.
-                </p>
-                <a href="assets/cv/cv.pdf" target="_blank" class="cv-pdf-a"><i id ="cv-pdf" class="fa fa-download" aria-hidden="true"></i></a>
-            </div>
-            <div class="col-sm-4">
+            <div class="col-sm-6 ">
                 <h5 class="uppercase general-sub">Social Links</h5>
                 <ul class="list-inline social-links">
                     <li><a target="_blank" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -87,6 +83,8 @@
         </div>
 
     </footer>
+    <!-- </Footer> -->
+    
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>

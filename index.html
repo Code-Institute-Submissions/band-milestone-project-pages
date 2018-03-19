@@ -13,7 +13,7 @@
 
 <body>
     <nav class="navbar navbar-default">
-        <div class="container-fluid">
+        <div class="container-fluid ">
             <div class="navbar-header">
                 <a href="index.html">
                     <img src ="assets/images/logo.png"/ class = "navbar-brand">
@@ -26,15 +26,18 @@
                 </button>
             </div>
 
-            <div class="navbar-collapse collapse navbar-right hidden-xs" id="navbar">
+            <div class="navbar-collapse collapse navbar-right" id="navbar">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Home</a></li>
+                    <li class ="active"><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="hireUs.html">Hire Us</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     <li class="visible-xs"><a href="">Sign Up</a></li>
-                    <a href="/login" class='btn btn-default navbar-btn'>Sign Up</a>
                 </ul>
+
+                <div class="navbar-header hidden-xs">
+                    <a href="/login" class='btn btn-default navbar-btn'>Sign Up</a>
+                </div>
             </div>
         </div>
     </nav>
@@ -113,7 +116,7 @@
                             <p>
                                 Need a band to play at a speacial event like your wedding or a Christmas party? Then look no further. The Monkees can now be hired to play at your special event! Please contact us for further information.
                             </p>
-                            <p><a class="btn btn-sm btn-default" href="contact.html">Read More</a></p>
+                            <p><a class="btn btn-sm btn-default" href="hireUs.html">Read More</a></p>
                         </div>
                     </div>
                     <div class="hidden-xs hidden-sm hidden-md col-lg-4">
@@ -153,15 +156,15 @@
 
                 <div class="row ">
                     <div class="col-md-12 photo-column">
-                        <a href = "tour.html" >
-                        <div class="container">
-                            <div class="tag">
-                                <div class="text uppercase">
-                                    Hire Us
+                        <a href="hireUs.html">
+                            <div class="container">
+                                <div class="tag">
+                                    <div class="text uppercase">
+                                        Hire Us
+                                    </div>
                                 </div>
+                                <img class="left-col-photos" src="assets/images/oldMonkees.jpg" />
                             </div>
-                            <img class="left-col-photos" src="assets/images/oldMonkees.jpg" />
-                        </div>
                         </a>
                     </div>
                 </div>
@@ -169,15 +172,15 @@
             <div class="hidden-xs col-sm-8 col-md-8  section-column-home">
                 <div class="row">
                     <div class="col-md-12 photo-column">
-                        <a href = "contact.html" >
-                        <div class="container">
-                            <div class="tag">
-                                <div class="text uppercase">
-                                    Contact
+                        <a href="contact.html">
+                            <div class="container">
+                                <div class="tag">
+                                    <div class="text uppercase">
+                                        Contact
+                                    </div>
                                 </div>
+                                <img class="right-col-photos" src="assets/images/monkeeslive.jpg" />
                             </div>
-                            <img class="right-col-photos" src="assets/images/monkeeslive.jpg" />
-                        </div>
                         </a>
                     </div>
                 </div>
@@ -188,20 +191,13 @@
     <!-- Footer -->
     <footer class="container-fluid">
         <div id="footer-details" class="row">
-            <div class="col-sm-4">
+            <div class="col-sm-6">
                 <h5 class="uppercase general-sub">About</h5>
                 <p class="inline-block">
                     The Monkees were an American rock and pop band originally active between 1965 and 1971, with subsequent reunion albums and tours in the decades that followed.
                 </p>
             </div>
-            <div class="col-sm-4">
-                <h5 class="uppercase general-sub">Download My CV</h5>
-                <p class="inline-block">
-                    Need a printable version of my CV? Download it here.
-                </p>
-                <a href="assets/cv/cv.pdf" target="_blank" class="cv-pdf-a"><i id ="cv-pdf" class="fa fa-download" aria-hidden="true"></i></a>
-            </div>
-            <div class="col-sm-4">
+            <div class="col-sm-6 ">
                 <h5 class="uppercase general-sub">Social Links</h5>
                 <ul class="list-inline social-links">
                     <li><a target="_blank" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -215,6 +211,7 @@
         </div>
 
     </footer>
+    <!-- </Footer> -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
