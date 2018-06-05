@@ -17,6 +17,11 @@
     webpages to view information about the monkees. These different web pages break the information up and
     make the website easier to use and understand for the user.
 </p>
+<p>
+    The website used code from two previous websited that the developer made while following some previous tutorials with
+    the code institute. It was the structure and initial style copied from these two websites and then the code was added to and changed to make
+    match the brief.
+</p>
 
 <p>   
     There is some different technologies used in this project. Bootstrap was used for the structure of the web pages(html).
@@ -34,7 +39,8 @@
     right. Once mistakes/changes were made with Chrome, the code was copied to the actual code to fix the issue permanently.
 </p>
 <p>
-    The website used code from two previous websited that the developer made while following some previous tutorials with
-    the code institute. It was the structure and initial style copied from these two websites and then the code was added to and changed to make
-    match the brief.
+    This website was deployed to github pages. It was very easy to set up as the website has been put in a githum repository from the start
+    so all that had to be done was activate github pages and point the source to the master branch. Only one issue was found when deploying.
+    This issue was that some of the images couldnt be found. This issue was identified as being because "../" was used before some of the images.
+    This worked locally but in git hub pages, meant that the url for the images was being added to the github pages url and making an incorrect path.
 </p>
