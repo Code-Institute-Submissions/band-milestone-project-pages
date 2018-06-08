@@ -1,6 +1,8 @@
 <h6>Ben Hasselgren</h6>
 <h1> User Centric Frontend Development Milestone Project  </h1>
 
+<a href="https://benhasselgren.github.io/band-milestone-project-pages/" target="_blank"> Click here to view website</a>
+
 <h3>Purpose</h3>
 <p>
     The purpose of this project is to create a website for the Monkees that
@@ -31,7 +33,7 @@
     to the webpage but in this milestone, that javascript doesn't have to be edited or looked at.
 </p>
 
-<h3>Testing/Deployment</h3>
+<h3>Testing</h3>
 <p>
     This website was tested using Chrome development tools. The website was created on a design made
     by wireframe diagrams using Balsamiq. It was important to make sure the final version looked like the designs so
@@ -39,8 +41,35 @@
     right. Once mistakes/changes were made with Chrome, the code was copied to the actual code to fix the issue permanently.
 </p>
 <p>
-    This website was deployed to github pages. It was very easy to set up as the website has been put in a githum repository from the start
+    I also did some manual tests. Here are a couple examples
+</p>
+<table>
+    <tr>
+        <th>Test</th>
+        <th>Input</th>
+        <th>Expected output</th>
+        <th>Output</th>
+        <th>Pass?</th>
+    </tr>
+    <tr>
+        <td>Testing to see if the correct page is shown</td>
+        <td>Clicked About link in navbar</td>
+        <td>render about.html</td>
+        <td>render about.html</td>
+        <td>Yes</td>
+    </tr>
+    <tr>
+        <td>Testing to see correct modal is shown for bandmember</td>
+        <td>Click on Davy Jones read more button</td>
+        <td>Davy Jones modal should appear</td>
+        <td>Davy Jones modal appeared</td>
+        <td>Yes</td>
+    </tr>
+</table>
+<h3>Deployment</h3>
+<p>
+    This website was deployed to github pages. It was very easy to set up as the website has been put in a github repository from the start
     so all that had to be done was activate github pages and point the source to the master branch. Only one issue was found when deploying.
-    This issue was that some of the images couldnt be found. This issue was identified as being because "../" was used before some of the images.
-    This worked locally but in git hub pages, meant that the url for the images was being added to the github pages url and making an incorrect path.
+    This issue was that some of the images couldn't be found. This issue was identified as being because "../" was used before some of the images.
+    This worked locally but in git hub pages, meant that the url for the images were being added to the github pages url and making an incorrect path.
 </p>
